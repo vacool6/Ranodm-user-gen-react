@@ -1,0 +1,96 @@
+.card {
+  height: 20rem;
+  width: 35rem;
+  max-width: 700px;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b3f3f;
+  box-shadow: 10px 15px 20px black;
+}
+
+.pro {
+  height: 20rem;
+  width: 35rem;
+  max-width: 700px;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: goldenrod;
+  box-shadow: 10px 15px 20px black;
+}
+
+.left {
+  /* margin: 50px 0 50px 30px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.left h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0 0 15px 0;
+  font-weight: 900;
+}
+
+.left button {
+  width: 200px;
+  text-decoration: none;
+  margin: 0 0 10px 10px;
+  background: red;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  font-size: 1.12rem;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.left .contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left p {
+  color: white;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+.right img {
+  height: 65%;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .right img {
+    height: 55%;
+  }
+  .left button {
+    width: 150px;
+    font-size: 10px;
+  }
+  .contact {
+    font-size: 10px;
+  }
+  .left h1 {
+    font-size: 1rem;
+  }
+
+  .card,
+  .pro {
+    height: 12.5rem;
+    width: 20rem;
+  }
+}

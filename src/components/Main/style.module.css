@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.btn {
+  width: 15rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+  background-color: green;
+  color: inherit;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.flexbox {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 25rem;
+  overflow-y: scroll;
+  width: 90%;
+  background: none;
+}
+
+.popup {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.1rem;
+  }
+  .flexbox {
+    width: 100%;
+  }
+}

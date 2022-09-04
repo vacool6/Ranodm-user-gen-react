@@ -1,0 +1,78 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(207, 207, 207, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+.main {
+  background-color: white;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 5rem;
+  background-color: rgb(32, 76, 237);
+}
+
+.main h4 {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+  align-items: center;
+}
+
+.btnContainer button {
+  height: 4rem;
+  width: 12rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.btnContainer button:nth-of-type(2) {
+  background-color: goldenrod;
+  color: white;
+}
+
+.pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+.pro h4 {
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+  }
+  .pro h4,
+  .main h4 {
+    font-size: 1rem;
+  }
+
+  .btnContainer button {
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+  }
+}

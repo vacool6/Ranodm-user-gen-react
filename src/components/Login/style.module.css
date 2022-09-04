@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.formLayout {
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 0 1rem;
+  border-radius: 10px;
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+  background-size: cover;
+}
+
+.input {
+  height: 3rem;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: black;
+  font-size: 1.5rem;
+  outline: none;
+  padding: 0 2rem;
+}
+
+.btn {
+  height: 2.5rem;
+  width: 90%;
+  outline: none;
+  border: none;
+  background-color: green;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.heading {
+  color: inherit;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-top: 5rem;
+}
+
+@media (max-width: 800px) {
+  .heading {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  .formLayout {
+    width: 15rem;
+  }
+  .input {
+    width: 10rem;
+  }
+}
