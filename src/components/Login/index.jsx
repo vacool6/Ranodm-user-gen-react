@@ -10,7 +10,7 @@ const Login = (props) => {
   };
   const loginHandler = () => {
     if (username && password) {
-      setLogin(true);
+      setLogin(localStorage.setItem("user", username));
     }
   };
   return (

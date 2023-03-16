@@ -21,7 +21,6 @@
 }
 
 .left {
-  /* margin: 50px 0 50px 30px; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -49,6 +48,14 @@
   font-size: 1.12rem;
   outline: none;
   border: none;
+}
+
+.left button:hover {
+  transform: scale(1.05);
+}
+
+.left button:active {
+  transform: scale(0.95);
 }
 
 button:hover {
