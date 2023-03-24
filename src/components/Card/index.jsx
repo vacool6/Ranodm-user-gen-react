@@ -6,7 +6,6 @@ const Card = (props) => {
 
   const deleteHandler = (value) => {
     setList(userList.filter((user) => user.name !== value));
-    console.log(userList);
   };
   return (
     <div className={isPro ? classes.pro : classes.card}>

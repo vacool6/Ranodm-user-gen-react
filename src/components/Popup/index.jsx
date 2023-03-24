@@ -35,10 +35,7 @@ const Popup = (props) => {
                   Congratulations!
                   <br /> You are now a PRO member.
                 </h4>
-                <img
-                  src="https://cdn5.vectorstock.com/i/1000x1000/30/64/crown-king-icon-flat-style-vector-22693064.jpg"
-                  alt="Pro"
-                />
+                <img src="./pro.png" alt="Pro" />
               </div>
             )}
           </div>

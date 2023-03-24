@@ -6,3 +6,10 @@ body {
   background-image: url("https://i.pinimg.com/originals/a9/4a/ee/a94aee835e16cff4f14c83dac8ffbe10.gif");
   background-size: cover;
 }
+
+@media (max-width: 1200px) {
+  body {
+    background-image: url("");
+    background-color: rgb(22, 1, 32);
+  }
+}

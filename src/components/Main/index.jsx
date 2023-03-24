@@ -17,7 +17,6 @@ const Main = () => {
       } else {
         const data = await fetch("https://randomuser.me/api/");
         const result = await data.json();
-        console.log(result.results[0]);
         setList([
           ...userList,
           {
@@ -33,7 +32,11 @@ const Main = () => {
     }
   };
 
-  console.log(userList);
+  const logoutHandler = () => {
+    localStorage.removeItem("user");
+    window.location.reload();
+  };
+
   return (
     <>
       <div className={classes.container}>
@@ -41,6 +44,9 @@ const Main = () => {
           <h1>Random user generated ({userList.length})</h1>
           <button className={classes.btn} onClick={clickHandler}>
             Generate!
+          </button>
+          <button className={classes.logoutBtn} onClick={logoutHandler}>
+            Logout
           </button>
         </div>
         <div className={classes.flexbox}>
