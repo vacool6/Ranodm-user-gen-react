@@ -1,4 +1,6 @@
-# Random user gen resct
+# Random user gen react
+
+DEMO:
 
 
 https://github.com/vacool6/Ranodm-user-gen-react/assets/42382545/7e6fa723-c507-421e-bcac-a48b5933bbbc
