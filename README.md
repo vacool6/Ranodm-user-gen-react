@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Random user gen resct
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+https://github.com/vacool6/Ranodm-user-gen-react/assets/42382545/7e6fa723-c507-421e-bcac-a48b5933bbbc
+
+
+
 
 ## Getting started
 
